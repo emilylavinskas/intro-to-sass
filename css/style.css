@@ -1,0 +1,50 @@
+/* import statements */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: #e68a00;
+}
+
+.border, ul {
+  border: 3px solid #e68a00;
+}
+
+.border p, ul p {
+  color: #4d004c;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #4d004c;
+}
+
+.primary-btn:hover {
+  background: black;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #4d004c;
+}
+
+.secondary-btn:hover {
+  background: black;
+}
+
+/* you don't need to include underscores in the style.scss for base, mixins & components-main */
+
+/*# sourceMappingURL=style.css.map */

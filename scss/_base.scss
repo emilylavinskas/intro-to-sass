@@ -1,0 +1,12 @@
+// Colours
+$purple: #4d004c;
+$orange: #e68a00;
+
+// You can use variables inside variables
+$primary: $purple;
+$secondary: $orange;
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+// Font Families - any font with more than one word needs to be in quotes
+$helvetica: Helvetica, Arial, sans-serif;
+$montserrat: Montserrat, sans-serif;

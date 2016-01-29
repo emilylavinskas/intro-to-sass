@@ -1,0 +1,27 @@
+html {
+    font-family: $helvetica;
+}
+
+h1 {
+    font-family: $montserrat;
+    color: $orange;
+}
+
+.border {
+    border: 3px solid $orange;
+    p {
+        color: $purple;
+    }
+}
+
+.primary-btn {
+    @include button($purple);
+}
+
+.secondary-btn {
+    @include button($purple);
+}
+
+ul {
+    @extend .border;
+}
